@@ -6,10 +6,10 @@ class DemographicAnalyzerTestCase(unittest.TestCase):
     def setUpClass(self):
         self.data = demographic_data_analyzer.calculate_demographic_data(print_data = False)
 
-    # def test_race_count(self):
-    #     actual = self.data['race_count'].tolist()
-    #     expected = [27816, 3124, 1039, 311, 271]
-    #     self.assertCountEqual(actual, expected, msg="Expected race count values to be [27816, 3124, 1039, 311, 271]")
+    def test_race_count(self):
+        actual = self.data['race_count'].tolist()
+        expected = [27816, 3124, 1039, 311, 271]
+        self.assertCountEqual(actual, expected, msg="Expected race count values to be [27816, 3124, 1039, 311, 271]")
 
     # def test_average_age_men(self):
     #     actual = self.data['average_age_men']
