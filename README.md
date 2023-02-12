@@ -1,3 +1,6 @@
 # Demographic Data Analyzer
 
-This is the boilerplate for the Demographic Data Analyzer project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+## Built with
+
+- [pandas](https://github.com/pandas-dev/pandas) - Data analysis / manipulation library for Python
+- [freeCodeCamp Demographic Data Analyzer](https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer) - Tasks, boilerplate
